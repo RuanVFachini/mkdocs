@@ -1,0 +1,3 @@
+# Negócio
+
+Regras de negócio

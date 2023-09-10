@@ -1,4 +1,7 @@
 site_name: Programa Abc
 site_url: https://programa-abc.com.br/
-nav:
-  - Regras : 'index.md'
+theme:
+  name: readthedocs
+  highlightjs: true
+plugins:
+  - include-markdown

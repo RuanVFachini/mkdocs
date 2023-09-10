@@ -21,7 +21,8 @@ RUN pip install pymdown-extensions \
 && pip install mkdocs-material \
 && pip install mkdocs-rtd-dropdown \
 && pip install mkdocs-git-revision-date-plugin \
-&& pip install mkdocs-git-revision-date-localized-plugin
+&& pip install mkdocs-git-revision-date-localized-plugin \
+&& pip install mkdocs-include-markdown-plugin
 
 # COPY mkdocs.yml /usr/src/mkdocs/build/
 # COPY docs /usr/src/mkdocs/build/docs/
